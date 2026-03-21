@@ -49,7 +49,7 @@ outputs:
 
 runs:
   using: 'node20'
-  main: 'index.js'
+  main: 'dist/index.js'
 
 # Future: Support composite action for more complex setup
 # runs:
