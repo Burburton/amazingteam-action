@@ -12,7 +12,7 @@ inputs:
   version:
     description: 'AmazingTeam Foundation version to use'
     required: false
-    default: '3.0.17'
+    default: '3.0.18'
   
   config:
     description: 'Path to amazingteam.config.yaml'
