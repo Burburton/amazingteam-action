@@ -1,6 +1,6 @@
 {
   "name": "amazingteam-action",
-  "version": "3.0.18",
+  "version": "3.0.19",
   "private": true,
   "description": "GitHub Action for AmazingTeam Foundation",
   "main": "dist/index.js",
