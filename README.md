@@ -8,7 +8,7 @@ This action sets up AmazingTeam Foundation for AI-powered development in your wo
 - name: Setup AmazingTeam
   uses: Burburton/amazingteam-action@v1
   with:
-    version: '3.0.15'
+    version: '3.0.16'
     config: 'amazingteam.config.yaml'
 ```
 
@@ -16,7 +16,7 @@ This action sets up AmazingTeam Foundation for AI-powered development in your wo
 
 | Input | Description | Required | Default |
 |-------|-------------|----------|---------|
-| `version` | AmazingTeam Foundation version | No | `3.0.15` |
+| `version` | AmazingTeam Foundation version | No | `3.0.16` |
 | `config` | Path to amazingteam.config.yaml | No | `amazingteam.config.yaml` |
 | `overlay` | Technology overlay to apply | No | `''` |
 | `cache` | Enable caching | No | `true` |
@@ -54,7 +54,7 @@ jobs:
       - name: Setup AmazingTeam
         uses: Burburton/amazingteam-action@v1
         with:
-          version: '3.0.15'
+          version: '3.0.16'
       
       - name: Run OpenCode
         uses: anomalyco/opencode/github@latest
